@@ -1,0 +1,55 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{ 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+}
+
+#contenedor{
+
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+.header{
+background-color: dodgerblue;
+color:white;
+height: 60px;
+margin-top: 15px;
+}
+
+.logo{
+
+text-transform: uppercase;
+}
+
+.logo a{/* sacar subrayado */
+
+    text-decoration: none;
+    color: white;
+}
+
+.navbar ul{
+
+    list-style-type: none;/* sacar puntos al navegador */
+    text-align: left;
+}
+
+.navbar ul li a{
+
+    text-decoration: none;
+    display: block; /* buscador en bloque */
+    color: white;
+}
+
+.navbar ul li a:hover{/* cambio de color cuando paso el mause */
+
+    background: red;
+    color: black;
+}
